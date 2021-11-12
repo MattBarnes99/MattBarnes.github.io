@@ -1,0 +1,238 @@
+/* GLOBAL FORMATING */
+
+/* set font for whole page */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* display header at top center of page */
+.header{
+    text-align: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: #a09f9f;
+    height: 5em;
+    font-size: 14pt;
+    color: white;
+    text-shadow: 2px 2px 0px black
+}
+
+/* ABOUT ME, PROJECTS AND CV FORMATING */
+
+    /* collapsable formatting */
+    .collapsible {
+        background-color: #a09f9f;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: 2px solid black;
+        margin-top: 1px;
+        text-align: center;
+        outline: none;
+        font-size: 24px;
+    }
+    
+    /* hover formating for collapsible portions */
+    .collapsible:hover, .active {
+        background-color: gray;
+    }
+
+    /* formatting for content within the collapsible portion */
+    .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: lightgray;
+    }
+
+    /* formatting the CV/resume click format */
+    button a{
+        text-decoration: none;
+        color: white;
+    }
+
+    /* removing formating from CV button after visiting */
+    button a:visited{
+        text-decoration: none;
+        color: white;
+    }
+    
+    /* hover styling for cv/resume button */
+    button a:hover{
+        color: blue;
+        text-decoration: underline;
+    }
+
+/* DECORATION FOR VISITED/HOVERING ON PROJECTS */
+
+    /* remove formatting from visted project text */
+    .proj-left a:visited, .proj-right a:visited{
+        text-decoration: none;
+        color: black;
+    }
+
+    /* hover styling for projects */
+    .proj-left a:hover, .proj-right a:hover{
+        color: blue;
+    }
+
+
+/* LARGE AND MEDIUM DEVICES */
+@media(min-width: 991px){
+
+    /* introduction formatting */
+
+    /* format the "hi i'm ... " message */
+    .intro-msg{
+        font-size: 4vw;
+        float: left;
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 40%;
+    }
+
+    /* formating the profile photo */
+    .profile-photo{
+        float: right;
+        height: auto;
+        width: 40%;
+        margin-right: 7%;
+        margin-top: 3%;
+    }
+
+    /* box around profile photo and intro message */
+    .box{
+        padding-top: 10px;
+        background-color: #a09f9f;
+        height: 30em;
+        border-top: 100px solid white;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 25px;
+    }
+    
+    /* positing of left project */
+    .proj-left{
+        float: left;
+        margin-left: 10%;
+    }
+
+    /* positioning of right project */
+    .proj-right{
+        float: right;
+        margin-right: 10%;
+    }
+
+    /* sizing of left project image */
+    .proj-left img{
+        height: 0%;
+        width: 100%;
+        margin-top: 0%;
+    }
+
+    /* sizing of right project image */
+    .proj-right img{
+        height: 14em;
+        width: 100%;
+    }
+
+    /* box surrounding projects */
+    .outline{
+        border: 1px solid black;
+        width: 35%;
+        height: 85%;
+        margin-top: 1%;
+    }
+
+    /* project descriptions */
+    .text{
+        text-align: center;
+        font-size: 1.5vw;
+        margin-top: 2%;
+    }
+}
+
+
+
+/* SMALL DEVICES */
+@media(max-width: 990px){
+
+    /* introduction formatting */
+
+    /* format the "hi i'm ... " message */
+    .intro-msg{
+        font-size: 24pt;
+        width: 500px;
+        height: 300px;
+        text-align: center;
+    }
+
+    /* formating the profile photo */
+    .profile-photo{
+        height: 50%;
+        width: 50%;
+        margin-top: 10%;
+        margin-left: 25%;
+    }
+
+    /* box around profile photo and intro message */
+    .box{
+        padding-top: 10px;
+        background-color: #a09f9f;
+        height: 30em;
+        max-width: 30em;
+        border-top: 100px solid white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+        vertical-align: middle;
+    }
+    
+    /* positing of left project */
+    .proj-left{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    /* positioning of right project */
+    .proj-right{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* sizing of left project image */
+    .proj-left img{
+        height: 0%;
+        min-height: 300px;
+        width: 100%;
+        margin-top: 0%;
+    }
+
+    /* sizing of right project image */
+    .proj-right img{
+        height: 14em;
+        min-height: 300px;
+        width: 100%;
+    }
+
+    /* box surrounding projects */
+    .outline{
+        border: 1px solid black;
+        width: 35%;
+        min-width: 350px;
+        height: 85%;
+        min-height: 350px;
+        margin-top: 1%;
+    }
+
+    /* project descriptions */
+    .text{
+        text-align: center;
+        font-size: 14pt;
+        margin-top: 2%;
+    }
+}

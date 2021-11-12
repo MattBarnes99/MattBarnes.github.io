@@ -1,1 +1,47 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Matt Barnes</h1>    
+            
+        </div>
+        
+        <div id="home" class="box">
+            <img src="profile.jpg" alt="profile" class="profile-photo">
+            <p class="intro-msg">Hi, my name is <br>Matt Barnes</p>
+        </div>
+
+        <button type="button" id="aboutme" class="collapsible">About Me</button>
+        <div class="content">
+            <p>I am a senior at the University of Richmond, studying Leadership Studies and Computer Science. I’m from Springtown, Pennsylvania and am pursuing a career in software development and project management after graduation. </p>
+            <p><b>Mobile:</b> (610) 882-2827</p>
+            <p><b>Email:</b> matt.barnes@richmond.edu</p>
+            <p><b>Mailing Address:</b> PO Box 50, Springtown Pa, 18081</p>
+        </div>
+
+        <button type="button" id="projects" class="collapsible">Projects</button>
+        <div class="content">
+            <div class="outline proj-left">
+                <a href="https://github.com/MattBarnes99/Traffic-Simulation/blob/main/README.md" target="_blank"><h2 class="text"><u>Traffic Simulation</u></h2></a>
+                <img src="trafficSim.png" class="sim-pic">
+                <p class="text">A C++ traffic light and traffic simulation with a simple GUI</p>
+            </div>
+            <div class="outline proj-right">
+                <a href="https://github.com/matthewohaines/hci_project/blob/main/README.md" target="_blank"><h2 class="text"><u>yoUR Food</u></h2></a>
+                <img src="yoURFood.png" class="food-pic">
+                <p class="text">A HTML, CSS, and Javascript website to compare food options on the University of Richmond campus</p>
+            </div>
+        </div>
+
+        <button type="button" id="projects" class="collapsible"><a href="cv_barnes.pdf" target="_blank">CV/Resume</a></button>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+
+
+</html>
