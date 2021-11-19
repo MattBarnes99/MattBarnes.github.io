@@ -79,6 +79,15 @@ body{
         color: blue;
     }
 
+@media(min-width: 991px){
+/* formating the profile photo */
+    .profile-photo{
+        float: right;
+        height: 300px;
+        width: 400px;
+        margin-right: 7%;
+        margin-top: 3%;
+    }}
 
 /* LARGE AND MEDIUM DEVICES */
 @media(min-width: 991px){
