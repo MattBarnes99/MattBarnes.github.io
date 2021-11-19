@@ -156,7 +156,7 @@ body{
 }
 
 /* special picture formatting for large devices */
-@media(min-width: 1200px){
+@media(min-width: 1440px){
 /* formating the profile photo */
     .profile-photo{
         float: right;
