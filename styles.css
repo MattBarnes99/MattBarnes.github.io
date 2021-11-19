@@ -156,16 +156,16 @@ body{
 }
 
 /* special picture formatting for large devices */
-@media(min-width: 1440px){
+/* @media(min-width: 1440px){ */
 /* formating the profile photo */
-    .profile-photo{
+    /* .profile-photo{
         float: right;
         height: 400px;
         width: 500px;
         margin-right: 7%;
         margin-top: 3%;
     }
-}
+} */
 
 
 /* SMALL DEVICES */
