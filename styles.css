@@ -160,8 +160,8 @@ body{
 /* formating the profile photo */
     .profile-photo{
         float: right;
-        height: 400px;
-        width: 500px;
+        height: 50px;
+        width: 50px;
         margin-right: 7%;
         margin-top: 3%;
     }
